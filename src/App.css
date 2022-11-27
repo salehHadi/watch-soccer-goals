@@ -1,0 +1,80 @@
+
+
+
+.App {
+  background-color: rgb(239, 239, 239);
+  min-height: 100vh;
+  max-height: 100%;
+}
+
+/* ==== typography ==== */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.home__header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 20px 0 ;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.home__body{
+  padding: 5px;
+}
+
+.home__match-container {
+  padding: 10px;
+}
+
+
+.home__match {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.home__match--teamImg {
+  width: 20px;
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.home__match-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.home__match--link {
+  text-decoration: none;
+  color: black;
+}
+
+.header__menu {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  background-color: black;
+  text-align: center;
+  z-index: 1;
+}
+
+.header__menu-title {
+  color: white;
+  text-decoration: none;
+}
