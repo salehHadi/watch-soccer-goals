@@ -13,8 +13,8 @@ function Header() {
 
     return(
     <div>
-        <header className="home__header">
-            <i onClick={()=> setMenuToggle(pre => !pre)} className="fa-solid fa-bars"></i>
+        <header className="header">
+            <i onClick={()=> setMenuToggle(pre => !pre)} className="fa-solid fa-bars header_icon"></i>
         </header>
 
         {menuToogle && menu }

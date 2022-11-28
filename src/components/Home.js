@@ -18,17 +18,21 @@ const displayElement = data.map(el => {
         <Link to="/watch" key={el.id} className="home__match--link" >
             <div key={el.id} onClick={()=> getId(el.id)} className="home__match">
                 <div className="home__match-team">
-                    <img src={el.imgTeam1} className="home__match--teamImg" />
+                    <div className="home__match--teamImg-div">
+                        <img src={el.imgTeam1} alt="img" className="home__match--teamImg" />
+                    </div>
                     <p className="home__match--team-name">{el.team1}</p>
                 </div>
                 
-                <div>
-                    <h4>{el.score}</h4><br />
-                    <p>{el.muchState}</p>
+                <div className="home__match-score__container">
+                    <h4 className="home__match-score">{el.score}</h4><br />
+                    <p className="home__match-score__state">{el.muchState}</p>
                 </div>
                 
                 <div className="home__match-team">
-                    <img src={el.imgTeam2} className="home__match--teamImg" />
+                    <div className="home__match--teamImg-div">
+                        <img src={el.imgTeam2} alt="img" className="home__match--teamImg" />
+                    </div>
                     <p className="home__match--team-name">{el.team2}</p>
                 </div>
             </div>
@@ -42,7 +46,6 @@ return(
     <div>
 
         <Header />
-
         <div className="home__body">
             <div className="home__match-container">
                 {displayElement}
