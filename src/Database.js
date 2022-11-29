@@ -2,7 +2,7 @@ const data = [
     {
         team1: "Saudi Arabia",
         imgTeam1:"https://c8.alamy.com/comp/2G9WTT5/flag-saudi-arabia-emblem-2G9WTT5.jpg",
-        team2: "Saudi Arabia",
+        team2: "Argantina",
         imgTeam2:"https://w7.pngwing.com/pngs/948/511/png-transparent-argentina-national-football-team-2018-world-cup-brazil-national-football-team-australia-national-football-team-2018-world-cup-flag-logo-flower-world-cup.png",
         muchState: "Full Time",
         score:' 2 - 1',
