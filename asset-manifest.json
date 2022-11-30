@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/watch-soccer-goals/static/css/main.d529ffc3.css",
-    "main.js": "/watch-soccer-goals/static/js/main.55bdd9ea.js",
+    "main.css": "/watch-soccer-goals/static/css/main.f0074b58.css",
+    "main.js": "/watch-soccer-goals/static/js/main.20416204.js",
     "static/js/787.28c64687.chunk.js": "/watch-soccer-goals/static/js/787.28c64687.chunk.js",
     "index.html": "/watch-soccer-goals/index.html",
-    "main.d529ffc3.css.map": "/watch-soccer-goals/static/css/main.d529ffc3.css.map",
-    "main.55bdd9ea.js.map": "/watch-soccer-goals/static/js/main.55bdd9ea.js.map",
+    "main.f0074b58.css.map": "/watch-soccer-goals/static/css/main.f0074b58.css.map",
+    "main.20416204.js.map": "/watch-soccer-goals/static/js/main.20416204.js.map",
     "787.28c64687.chunk.js.map": "/watch-soccer-goals/static/js/787.28c64687.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d529ffc3.css",
-    "static/js/main.55bdd9ea.js"
+    "static/css/main.f0074b58.css",
+    "static/js/main.20416204.js"
   ]
 }
