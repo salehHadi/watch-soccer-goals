@@ -1,4 +1,4 @@
-const data = [
+const today = [
     {
         team1: "Saudi Arabia",
         imgTeam1:"https://c8.alamy.com/comp/2G9WTT5/flag-saudi-arabia-emblem-2G9WTT5.jpg",
@@ -18,7 +18,10 @@ const data = [
         score:' 0 - 2',
         goalsVedio: "https://www.youtube.com/embed/4-ggjTrm56I",
         id: 2
-    },
+    }
+]
+
+const yesterday = [
     {
         team1: "Germany",
         imgTeam1:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTquVS0_CC8M_SWOZfIqSLgxLJpUyYz5xFpkg&usqp=CAU",
@@ -38,7 +41,10 @@ const data = [
         score:' 3 - 2',
         goalsVedio: "https://www.youtube.com/embed/wTIG8xdig1Q",
         id: 4
-    },
+    }
+]
+
+const tomorrow = [
     {
         team1: "France",
         imgTeam1:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4YaQDdoptTTvozFNKwcV1b0l845sgeNwtuQ&usqp=CAU",
@@ -48,7 +54,17 @@ const data = [
         score:' 4 - 1',
         goalsVedio: "https://www.youtube.com/embed/RCBMAN9azdM",
         id: 5
+    },
+    {
+        team1: "Saudi Arabia",
+        imgTeam1:"https://c8.alamy.com/comp/2G9WTT5/flag-saudi-arabia-emblem-2G9WTT5.jpg",
+        team2: "Argantina",
+        imgTeam2:"https://w7.pngwing.com/pngs/948/511/png-transparent-argentina-national-football-team-2018-world-cup-brazil-national-football-team-australia-national-football-team-2018-world-cup-flag-logo-flower-world-cup.png",
+        muchState: "Full Time",
+        score:' 2 - 1',
+        goalsVedio: "https://www.youtube.com/embed/Tu0uvDTBn0o",
+        id: 1
     }
 ]
 
-export default data
+export {today, yesterday, tomorrow}

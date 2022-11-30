@@ -1,5 +1,5 @@
 import React, { createContext, useState } from "react";
-import data from "./Database";
+import {today, yesterday, tomorrow} from "./Database";
 
 
 const dataBase = createContext('')
@@ -7,17 +7,24 @@ const dataBase = createContext('')
 
 
 function Provider(props) {
-    const [dataSelected, setDataSelected] = useState('')
+    const [goalstoWatch, setGoalstoWatch] = useState('')
+    const [displayMatchFor, setDisplayMatchFor] = useState(today)
+    const allData = [yesterday, today, tomorrow]
+
 
   function getId(id) {
-      const infoFind = data.find(el => el.id === id)
-      setDataSelected(infoFind)
+      const infoFind = displayMatchFor.find(el => el.id === id)
+      setGoalstoWatch(infoFind)
     }
+
+  function dayToDisplay(day) {
+    setDisplayMatchFor(allData[day])
+  }
     
 
 
     return (
-        <dataBase.Provider value={{data:data, getId:getId, infoSelected:dataSelected}}>
+        <dataBase.Provider value={{data:displayMatchFor, getId:getId, dayToDisplay:dayToDisplay, allData:allData, infoSelected:goalstoWatch}}>
             {props.children}
         </dataBase.Provider>
     )

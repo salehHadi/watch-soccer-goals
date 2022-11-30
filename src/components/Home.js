@@ -1,6 +1,7 @@
 import React, {useContext} from "react";
 import {Link} from 'react-router-dom'
 import Header from "./Header";
+import DaySelected from "./DaySelected";
 import { dataBase } from "../useContect";
 
 
@@ -47,6 +48,7 @@ return(
 
         <Header />
         <div className="home__body">
+            <DaySelected />
             <div className="home__match-container">
                 {displayElement}
             </div>
