@@ -6,7 +6,7 @@ const today = [
         imgTeam2:"https://w7.pngwing.com/pngs/948/511/png-transparent-argentina-national-football-team-2018-world-cup-brazil-national-football-team-australia-national-football-team-2018-world-cup-flag-logo-flower-world-cup.png",
         muchState: "Full Time",
         score:' 2 - 1',
-        goalsVedio: "https://www.youtube.com/embed/Tu0uvDTBn0o",
+        goalsVedio: "https://cc.sporttube.com/embed/Za4CCCG",
         id: 1
     },
     {

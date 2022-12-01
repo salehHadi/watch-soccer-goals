@@ -36,6 +36,8 @@ p {
 }
 .header__menu {
   position: absolute;
+  display: flex;
+  flex-direction: column;
   top: 0;
   bottom: 0;
   right: 0;
@@ -45,9 +47,19 @@ p {
   z-index: 1;
 }
 
-.header__menu-title {
+.header__menu-title,
+.header__menu-element {
   color: white;
   text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.header__menu-title{
+  margin-bottom: 20px;
+}
+
+.header__menu-element:hover {
+  color: yellow;
 }
 
 
